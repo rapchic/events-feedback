@@ -2,8 +2,6 @@
 applications:
 - path: .
   instances: 1
-  buildpack: nodejs_buildpack
   name: events-feedback
-    command: node app.js
   env:
     env_type: production
