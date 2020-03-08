@@ -172,6 +172,8 @@ app.use(express.static(__dirname + '/views'));
 //     console.log("To view your app, open this link in your browser: http://localhost:" + port);
 // });
 
-http.createServer(app).listen(app.get('port'), '0.0.0.0', function() {
-    console.log('Express server listening on port ' + app.get('port'));
+const port = 3001;
+app.listen(port, function () {
+    console.log("Server running on port: %d", port);
 });
+module.exports = app;
