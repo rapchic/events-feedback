@@ -4,7 +4,7 @@ applications:
   instances: 1
   memory: 256M
   buildpack: nodejs_buildpack
-  name: feedback-app
+  name: events-feedback
   disk_quota: 256M
   command: node app.js
   env:
