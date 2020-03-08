@@ -2,6 +2,7 @@
 applications:
 - path: .
   instances: 1
+  host: events-feedback-form
   name: events-feedback
   env:
     env_type: production

@@ -167,7 +167,11 @@ mydb.insert(doc,function(err,body,header){
 //serve static file (index.html, images, css)
 app.use(express.static(__dirname + '/views'));
 
-var port = process.env.PORT || 3000
-app.listen(port, function() {
-    console.log("To view your app, open this link in your browser: http://localhost:" + port);
+// var port = process.env.PORT || 3000
+// app.listen(port, function() {
+//     console.log("To view your app, open this link in your browser: http://localhost:" + port);
+// });
+
+http.createServer(app).listen(app.get('port'), '0.0.0.0', function() {
+    console.log('Express server listening on port ' + app.get('port'));
 });
