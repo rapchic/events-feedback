@@ -1,8 +1,7 @@
 .home-hero {
     background-image:
-                     linear-gradient(to top, rgba(211, 211, 211, 0.2), rgba(0, 0, 0, 1)),
+                    linear-gradient(to top, rgba(211, 211, 211, 0.2), rgba(0, 0, 0, 1)),
 url(https://3kda485d4m0mmprok50zsd5m-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/Prometeo_FullRes-361-scaled-1.jpg);
-
 
     background-repeat: no-repeat;
     background-size: cover;

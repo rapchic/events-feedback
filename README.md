@@ -14,4 +14,4 @@
 
 ### To add a different background image
 
-1. Go to views->css->style.css and add the image url inside "background-image:"
+1. Go to *public->stylesheets->style.css* and add the image url inside "background-image:"
