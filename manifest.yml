@@ -1,8 +1,11 @@
 ---
 applications:
 - path: .
-  memory: 64M
   instances: 1
+  memory: 256M
+  buildpack: nodejs_buildpack
   name: feedback-app
   disk_quota: 256M
-  random-route: false
+  command: node app.js
+  env:
+    env_type: production
